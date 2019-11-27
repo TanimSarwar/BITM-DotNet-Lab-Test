@@ -1,0 +1,107 @@
+﻿@using LabTest_4_Set_B.Models
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .container {
+            padding: 5px;
+        }
+
+        label.error {
+            color: red;
+        }
+
+        input.error {
+            border: 1px solid red;
+        }
+    </style>
+    <title>SaveItem</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <ul class="nav navbar-nav">
+                            <li><a href="@Url.Action("StartPage", "Sales")">Home</a></li>
+                            <li class="active"><a href="@Url.Action("SaveItem", "Sales")">Save</a></li>
+                            <li><a href="@Url.Action("GetItemSalesInfo", "Sales")">View</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <form method="POST" id="SaveItem">
+                    <table align="center">
+                        <tr>
+                            <td><label for="Items">Item</label></td>
+                            <td>
+                                <select class="form-control" id="Items" name="ItemId">
+                                    <option value="">--Select Item--</option>
+                                    @foreach (Item aItem in ViewBag.ItemList)
+                                    {
+                                        <option value="@aItem.Id">@aItem.Name</option>
+                                    }
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="Quanity">Quantity</label></td>
+                            <td><input type="number" class="form-control" id="Quanity" placeholder="Enter Quantity" name="Quanity" min="1" max="20"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="CustomerName">Customer Name</label></td>
+                            <td><input type="text" class="form-control" id="CustomerName" placeholder="Enter Customer Name" name="CustomerName"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <div class="form-group" align="right">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    @if (ViewBag.Message != null)
+                    {
+                        <div class="alert alert-success">@ViewBag.Message</div>
+                    }
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script>
+        $("#SaveItem").validate({
+            rules: {
+                ItemId: "required",
+                Quanity: {
+                    required: true,
+
+                },
+                CustomerName: {
+                    required: true
+                }
+
+            },
+            messages: {
+                ItemId: "Please Select an Item",
+                Quanity: {
+                    required: "Set a Quantity"
+
+                },
+                CustomerName: {
+                    required: "Please Put Your Name"
+                }
+            }
+        });
+    </script>
+</body>
+</html>

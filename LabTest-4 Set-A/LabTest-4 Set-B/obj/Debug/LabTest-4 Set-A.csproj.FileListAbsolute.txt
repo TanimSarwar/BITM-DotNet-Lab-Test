@@ -1,0 +1,55 @@
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\LabTest-4 Set-B.dll.config
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\LabTest-4 Set-B.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\LabTest-4 Set-B.pdb
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Antlr3.Runtime.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\EntityFramework.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\EntityFramework.SqlServer.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.AspNet.Identity.Core.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.Security.Cookies.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.Security.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.Security.Facebook.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.Security.Google.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.Security.OAuth.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.Security.Twitter.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Web.Infrastructure.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Newtonsoft.Json.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Owin.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\System.Web.Helpers.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\System.Web.Mvc.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\System.Web.Optimization.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\System.Web.Razor.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\System.Web.WebPages.Deployment.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\System.Web.WebPages.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\System.Web.WebPages.Razor.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\WebGrease.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\System.Web.Helpers.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\System.Web.Mvc.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\System.Web.Optimization.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\System.Web.Razor.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\System.Web.WebPages.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\System.Web.WebPages.Deployment.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\System.Web.WebPages.Razor.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Newtonsoft.Json.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Antlr3.Runtime.pdb
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\EntityFramework.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\EntityFramework.SqlServer.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.AspNet.Identity.Core.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.Security.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.Security.Facebook.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.Security.Cookies.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.Security.OAuth.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.Security.Google.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.Security.Twitter.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\obj\Debug\LabTest-4 Set-A.csprojResolveAssemblyReference.cache
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\obj\Debug\LabTest-4 Set-B.dll
+F:\LabTest-4 Set-A-20191127T141513Z-001\LabTest-4 Set-A\LabTest-4 Set-B\obj\Debug\LabTest-4 Set-B.pdb

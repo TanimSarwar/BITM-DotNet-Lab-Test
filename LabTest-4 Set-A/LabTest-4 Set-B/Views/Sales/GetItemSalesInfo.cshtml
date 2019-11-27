@@ -1,0 +1,126 @@
+﻿@using LabTest_4_Set_B.Models
+
+@{
+    Layout = null;
+    int totalPrice = 0;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetItemSalesInfo</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .container {
+            padding: 5px;
+        }
+
+        label.error {
+            color: red;
+        }
+
+        input.error {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <ul class="nav navbar-nav">
+                            <li><a href="@Url.Action("StartPage", "Sales")">Home</a></li>
+                            <li><a href="@Url.Action("SaveItem", "Sales")">Save</a></li>
+                            <li class="active"><a href="@Url.Action("GetItemSalesInfo", "Sales")">View</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <form method="GET" id="SalesInfo">
+                    <table align="center">
+                        <tr>
+                            <td><label for="Items" class="col-form-label">Type</label></td>
+                            <td>
+                                <div class="form-group">
+
+                                    <select class="form-control" id="Items" name="ItemId">
+                                        <option selected value="">--Select Type--</option>
+                                        @foreach (Item aItem in ViewBag.ItemList)
+                                        {
+                                            <option value="@aItem.Id">@aItem.Name</option>
+                                        }
+                                    </select>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-group" align="right">
+                                    <button type="submit" class="btn btn-primary">Show</button>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+
+
+                    <div class="form-group">
+                        <table class="table table-responsive table-hover table-bordered text-center">
+
+                            <tr>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Purpose</th>
+                            </tr>
+
+                            @foreach (Sales aSales in ViewBag.SalesList)
+                            {
+                                <tr>
+                                    <td>@aSales.StationaryName</td>
+                                    <td>@aSales.Price</td>
+                                    <td>@aSales.Purpose</td>
+
+                                </tr>
+                                totalPrice = totalPrice + aSales.Price;
+                                ViewBag.TotalPrice = totalPrice;
+                            }
+                        </table>
+                    </div>
+                    <table align="right">
+                        <tr>
+                            <td><label>Total Price</label></td>
+                            <td>
+                                <div class="form-group">
+                                   
+                                    <input type="text" class="form-control" id="TotalPrice" placeholder="@ViewBag.TotalPrice" readonly="readonly" name="TotalPrice">
+                                </div>
+                            </td>
+                            <td>
+                                Taka
+                            </td>
+                        </tr>
+                    </table>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script>
+        $("#SalesInfo").validate({
+            rules: {
+                ItemId: "required"
+
+            },
+            messages: {
+                ItemId: "Please Select an Item"
+            }
+        });
+    </script>
+</body>
+</html>
