@@ -1,0 +1,18 @@
+F:\Bitm DotNet\LabTest1QS_A\LabTest1QS_A\bin\Debug\LabTest1QS_A.exe.config
+F:\Bitm DotNet\LabTest1QS_A\LabTest1QS_A\obj\Debug\LabTest1QS_A.csprojResolveAssemblyReference.cache
+F:\Bitm DotNet\LabTest1QS_A\LabTest1QS_A\obj\Debug\LabTest1QS_A.LunchBillCalculationApp.resources
+F:\Bitm DotNet\LabTest1QS_A\LabTest1QS_A\obj\Debug\LabTest1QS_A.Properties.Resources.resources
+F:\Bitm DotNet\LabTest1QS_A\LabTest1QS_A\obj\Debug\LabTest1QS_A.csproj.GenerateResource.Cache
+F:\Bitm DotNet\LabTest1QS_A\LabTest1QS_A\bin\Debug\LabTest1QS_A.exe
+F:\Bitm DotNet\LabTest1QS_A\LabTest1QS_A\bin\Debug\LabTest1QS_A.pdb
+F:\Bitm DotNet\LabTest1QS_A\LabTest1QS_A\obj\Debug\LabTest1QS_A.exe
+F:\Bitm DotNet\LabTest1QS_A\LabTest1QS_A\obj\Debug\LabTest1QS_A.pdb
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_A\LabTest1QS_A\bin\Debug\LabTest1QS_A.exe.config
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_A\LabTest1QS_A\obj\Debug\LabTest1QS_A.exe
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_A\LabTest1QS_A\obj\Debug\LabTest1QS_A.pdb
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_A\LabTest1QS_A\bin\Debug\LabTest1QS_A.exe
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_A\LabTest1QS_A\bin\Debug\LabTest1QS_A.pdb
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_A\LabTest1QS_A\obj\Debug\LabTest1QS_A.csprojResolveAssemblyReference.cache
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_A\LabTest1QS_A\obj\Debug\LabTest1QS_A.LunchBillCalculationApp.resources
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_A\LabTest1QS_A\obj\Debug\LabTest1QS_A.Properties.Resources.resources
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_A\LabTest1QS_A\obj\Debug\LabTest1QS_A.csproj.GenerateResource.Cache

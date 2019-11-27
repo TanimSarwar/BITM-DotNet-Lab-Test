@@ -1,0 +1,6 @@
+E:\Tanim\ProductInfoWebApp\ProductInfoWebApp\obj\Debug\ProductInfoWebApp.csprojResolveAssemblyReference.cache
+E:\Tanim\ProductInfoWebApp\ProductInfoWebApp\bin\ProductInfoWebApp.dll.config
+E:\Tanim\ProductInfoWebApp\ProductInfoWebApp\bin\ProductInfoWebApp.dll
+E:\Tanim\ProductInfoWebApp\ProductInfoWebApp\bin\ProductInfoWebApp.pdb
+E:\Tanim\ProductInfoWebApp\ProductInfoWebApp\obj\Debug\ProductInfoWebApp.dll
+E:\Tanim\ProductInfoWebApp\ProductInfoWebApp\obj\Debug\ProductInfoWebApp.pdb

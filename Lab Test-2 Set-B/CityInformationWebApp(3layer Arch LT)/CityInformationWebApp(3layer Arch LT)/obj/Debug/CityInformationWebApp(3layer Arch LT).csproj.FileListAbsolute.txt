@@ -1,0 +1,24 @@
+F:\Bitm DotNet\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\bin\CityInformationWebApp(3layer Arch LT).dll.config
+F:\Bitm DotNet\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\bin\CityInformationWebApp(3layer Arch LT).dll
+F:\Bitm DotNet\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\bin\CityInformationWebApp(3layer Arch LT).pdb
+F:\Bitm DotNet\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\obj\Debug\CityInformationWebApp(3layer Arch LT).csprojResolveAssemblyReference.cache
+F:\Bitm DotNet\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\obj\Debug\CityInformationWebApp(3layer Arch LT).dll
+F:\Bitm DotNet\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\obj\Debug\CityInformationWebApp(3layer Arch LT).pdb
+F:\Bitm DotNet\Lab Test 2\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\bin\CityInformationWebApp(3layer Arch LT).dll.config
+F:\Bitm DotNet\Lab Test 2\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\bin\CityInformationWebApp(3layer Arch LT).dll
+F:\Bitm DotNet\Lab Test 2\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\bin\CityInformationWebApp(3layer Arch LT).pdb
+F:\Bitm DotNet\Lab Test 2\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\obj\Debug\CityInformationWebApp(3layer Arch LT).csprojResolveAssemblyReference.cache
+F:\Bitm DotNet\Lab Test 2\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\obj\Debug\CityInformationWebApp(3layer Arch LT).dll
+F:\Bitm DotNet\Lab Test 2\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\obj\Debug\CityInformationWebApp(3layer Arch LT).pdb
+D:\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\bin\CityInformationWebApp(3layer Arch LT).dll.config
+D:\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\bin\CityInformationWebApp(3layer Arch LT).dll
+D:\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\bin\CityInformationWebApp(3layer Arch LT).pdb
+D:\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\obj\Debug\CityInformationWebApp(3layer Arch LT).csprojResolveAssemblyReference.cache
+D:\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\obj\Debug\CityInformationWebApp(3layer Arch LT).dll
+D:\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\obj\Debug\CityInformationWebApp(3layer Arch LT).pdb
+C:\Users\Trainer 402\Desktop\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\bin\CityInformationWebApp(3layer Arch LT).dll.config
+C:\Users\Trainer 402\Desktop\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\bin\CityInformationWebApp(3layer Arch LT).dll
+C:\Users\Trainer 402\Desktop\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\bin\CityInformationWebApp(3layer Arch LT).pdb
+C:\Users\Trainer 402\Desktop\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\obj\Debug\CityInformationWebApp(3layer Arch LT).csprojResolveAssemblyReference.cache
+C:\Users\Trainer 402\Desktop\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\obj\Debug\CityInformationWebApp(3layer Arch LT).dll
+C:\Users\Trainer 402\Desktop\CityInformationWebApp(3layer Arch LT)\CityInformationWebApp(3layer Arch LT)\obj\Debug\CityInformationWebApp(3layer Arch LT).pdb

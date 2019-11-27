@@ -1,0 +1,18 @@
+F:\Bitm DotNet\LabTest1QS_B\LabTest1QS_B\bin\Debug\LabTest1QS_B.exe.config
+F:\Bitm DotNet\LabTest1QS_B\LabTest1QS_B\obj\Debug\LabTest1QS_B.csprojResolveAssemblyReference.cache
+F:\Bitm DotNet\LabTest1QS_B\LabTest1QS_B\obj\Debug\LabTest1QS_B.EmailKeeper.resources
+F:\Bitm DotNet\LabTest1QS_B\LabTest1QS_B\obj\Debug\LabTest1QS_B.Properties.Resources.resources
+F:\Bitm DotNet\LabTest1QS_B\LabTest1QS_B\obj\Debug\LabTest1QS_B.csproj.GenerateResource.Cache
+F:\Bitm DotNet\LabTest1QS_B\LabTest1QS_B\bin\Debug\LabTest1QS_B.exe
+F:\Bitm DotNet\LabTest1QS_B\LabTest1QS_B\bin\Debug\LabTest1QS_B.pdb
+F:\Bitm DotNet\LabTest1QS_B\LabTest1QS_B\obj\Debug\LabTest1QS_B.exe
+F:\Bitm DotNet\LabTest1QS_B\LabTest1QS_B\obj\Debug\LabTest1QS_B.pdb
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_B\LabTest1QS_B\bin\Debug\LabTest1QS_B.exe.config
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_B\LabTest1QS_B\obj\Debug\LabTest1QS_B.exe
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_B\LabTest1QS_B\obj\Debug\LabTest1QS_B.pdb
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_B\LabTest1QS_B\bin\Debug\LabTest1QS_B.exe
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_B\LabTest1QS_B\bin\Debug\LabTest1QS_B.pdb
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_B\LabTest1QS_B\obj\Debug\LabTest1QS_B.csprojResolveAssemblyReference.cache
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_B\LabTest1QS_B\obj\Debug\LabTest1QS_B.EmailKeeper.resources
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_B\LabTest1QS_B\obj\Debug\LabTest1QS_B.Properties.Resources.resources
+F:\Bitm DotNet\Lab Test 1\LabTest1QS_B\LabTest1QS_B\obj\Debug\LabTest1QS_B.csproj.GenerateResource.Cache
