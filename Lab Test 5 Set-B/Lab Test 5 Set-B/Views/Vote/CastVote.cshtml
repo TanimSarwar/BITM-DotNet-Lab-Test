@@ -1,0 +1,71 @@
+﻿@model Lab_Test_5_Set_B.Models.CastVote
+@{
+    ViewBag.Title = "CastVote";
+}
+
+
+<style>
+    .input-validation-error {
+        border: 2px solid red;
+    }
+
+    .field-validation-error {
+        color: red;
+    }
+</style>
+@using (Html.BeginForm(FormMethod.Post))
+{
+    <div align="center">
+        <h3 class="text-muted">Cast Vote</h3>
+        <table>
+            <tr>
+                <td class="text-right">Voter Id</td>
+                <td>
+                    @Html.TextBoxFor(m => m.VoterId, new { @class = "form-control", placeholder = "Enter 17 digit Voter Id" })
+                    @Html.ValidationMessageFor(m => m.VoterId)
+                </td>
+            </tr>
+            <tr>
+                <td class="text-right">Select Symbol of Candidate</td>
+                <td>
+                    @Html.DropDownListFor(x => x.CandidateSymbol, new SelectList(ViewBag.CandidateSymbol, "Value", "Text"), new {@class= "form-control"})
+                    <span>@Html.ValidationMessageFor(x => x.CandidateSymbol)</span>
+                    @*<select name="departmentId" id="departmentId" class="form-control">
+                        <option value="">...Select Symbol...</option>
+                        @foreach (var candidate in ViewBag.CandidateSymbol)
+                        {
+                            <option value="@candidate.Id">@candidate.CandidateSymbol</option>
+                        }
+                    </select>*@
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td align="right"><input type="submit" class="btn btn-success" value="Cast" /></td>
+            </tr>
+        </table>
+        @if (ViewBag.Message != null)
+        {
+            if (ViewBag.Message == "Vote Casted")
+            {
+                <div class="alert alert-success" role="alert">
+                    @ViewBag.Message
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-danger" role="alert">
+                    @ViewBag.Message
+                </div>
+            }
+        }
+
+    </div>
+}
+
+@section scripts {
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+}

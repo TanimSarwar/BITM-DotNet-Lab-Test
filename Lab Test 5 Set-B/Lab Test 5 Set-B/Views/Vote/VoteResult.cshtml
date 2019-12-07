@@ -1,0 +1,75 @@
+﻿@using System.Runtime.ExceptionServices
+@using Lab_Test_5_Set_B.Models
+@using Microsoft.Ajax.Utilities
+
+@{
+    ViewBag.Title = "VoteResult";
+    int i = 1;
+}
+<style>
+
+    .myTable {
+        border-collapse: collapse;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .myTable td {
+            border: 0.5px solid #ddd;
+            padding: 8px;
+        }
+
+        .myTable tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .myTable tr:hover {
+            background-color: #ddd;
+        }
+
+        .myTable th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border: 0.5px solid #ddd;
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+        }
+</style>
+
+<div class="text-center">
+    <h3 class="text-muted">Result of Voting</h3>
+
+    <table id="myTable" class=" myTable">
+        <thead>
+        <tr>
+        <th> Symbol of Candidate</th>
+        <th> Name of Candidate</th>
+        <th> Status</th>
+        <th> No. of Votes</th>
+        </thead>
+        <tbody>
+
+        @foreach (var vote in ViewBag.VoteResult)
+        {
+
+            <tr>
+                <td>@vote.CandidateSymbol</td>
+                <td>@vote.CandidateName</td>
+                @if (i == 1)
+                {
+                    <td>Winner</td>
+                }
+                else
+                {
+                    <td>Loser</td>
+                }
+                <td>@vote.VoteNo</td>
+            </tr>
+            i++;
+        }
+
+        </tbody>
+    </table>
+</div>

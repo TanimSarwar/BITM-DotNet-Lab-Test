@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Start Page</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .container {
+            padding: 60px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+            height: 300px;
+            width: 400px;
+        }
+
+        a {
+            margin: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="card">
+                        <a href="@Url.Action("SaveVoter", "Vote")" class="btn btn-primary text-center">Voter Entry</a> <br />
+                        <a href="@Url.Action("SaveCandidate", "Vote")" class="btn btn-primary text-center">Candidate Entry</a><br />
+                        <a href="@Url.Action("CastVote", "Vote")" class="btn btn-primary text-center">Cast Your Vote</a><br />
+                        <a href="@Url.Action("VoteResult", "Vote")" class="btn btn-primary text-center">View Result</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
