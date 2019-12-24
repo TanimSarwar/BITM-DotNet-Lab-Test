@@ -1,0 +1,95 @@
+﻿@model Lab_Test_5_Set_C.Models.ScheduleVehicle
+@{
+    ViewBag.Title = "ScheduleVehicle";
+}
+<style>
+    .input-validation-error {
+        border: 2px solid red;
+    }
+
+    .field-validation-error {
+        color: red;
+    }
+</style>
+<link href="~/Content/jquery.datetimepicker.css" rel="stylesheet" />
+<link href="~/Content/bootstrap-datepicker.min.css" rel="stylesheet" />
+@using (Html.BeginForm(FormMethod.Post))
+{
+    <div align="center">
+        <h3 class="text-muted">Save Vehicle Info</h3>
+        <table>
+            <tr>
+                <td>Select Vehicle</td>
+                <td>
+                    @Html.DropDownListFor(x => x.Id, new SelectList(ViewBag.Vehicles, "Value", "Text"), new { @class = "form-control" })
+                    <span>@Html.ValidationMessageFor(x => x.Id)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>Select Date</td>
+                <td><input class="form-control" data-date-format="DD-dd-yyyy-mm" type="text" name="Date" id="datepicker" /></td>
+            </tr>
+            <tr>
+                <td>Shift</td>
+                <td>
+                    <select name="Shift" id="Shift" class="form-control">
+                        <option value="">---Select---</option>
+                        @foreach (var shift in ViewBag.Shifts)
+                        {
+                            <option value="@shift.Name">@shift.Name</option>
+                        }
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Booked By</td>
+                <td>
+                    @Html.TextBoxFor(m => m.Customer, new { @class = "form-control", placeholder = "Enter Customer Name" })
+                    @Html.ValidationMessageFor(m => m.Customer)
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    @Html.TextBoxFor(m => m.Address, new { @class = "form-control", placeholder = "Enter Customer Address" })
+                    @Html.ValidationMessageFor(m => m.Address)
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="right"><input type="submit" class="btn btn-success" value="Save" /></td>
+            </tr>
+        </table>
+        @if (ViewBag.Message != null)
+        {
+            if (ViewBag.Message == "Vehicle is Booked")
+            {
+                <div class="alert alert-success" role="alert">
+                    @ViewBag.Message
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-danger" role="alert">
+                    @ViewBag.Message
+                </div>
+            }
+        }
+
+    </div>
+}
+
+@section scripts {
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/bootstrap-datepicker.js"></script>
+    <script>
+        $('#datepicker').datepicker({
+            weekStart: 1,
+            todayHighlight: true,
+            autoclose: true
+        });
+    </script>
+}
+

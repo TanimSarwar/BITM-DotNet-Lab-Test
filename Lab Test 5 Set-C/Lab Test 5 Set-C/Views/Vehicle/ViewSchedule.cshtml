@@ -1,0 +1,102 @@
+﻿@using Lab_Test_5_Set_C.Models
+@model Lab_Test_5_Set_C.Models.ScheduleVehicle
+@{
+    ViewBag.Title = "ViewSchedule";
+    List<ScheduleVehicle> vehicles = ViewBag.Message;
+}
+
+<style>
+    .myTable {
+        border-collapse: collapse;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .myTable td {
+            border: 0.5px solid #ddd;
+            padding: 8px;
+        }
+
+        .myTable tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .myTable tr:hover {
+            background-color: #ddd;
+        }
+
+        .myTable th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border: 0.5px solid #ddd;
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+        }
+</style>
+@using (Html.BeginForm(FormMethod.Get))
+{
+    <div align="center">
+        <h3 class="text-muted">View Schedule of a Vehicle</h3>
+        <table>
+            <tr>
+                <td>Select Vehicle</td>
+                @*<td>
+                    @Html.DropDownListFor(x => x.Id, new SelectList(ViewBag.Vehicles, "Value", "Text"), new {@class = "form-control"})
+                    @Html.ValidationMessageFor(x => x.Id)
+                </td>*@
+                <td>
+                    <select class="form-control" id="Items" name="Id">
+                        <option selected value="">--Select Item--</option>
+                        @foreach (Vehicles aVehicles in ViewBag.GetAllVehiclesRegNo)
+                        {
+                            <option value="@aVehicles.Id">@aVehicles.RegNo</option>
+                        }
+                    </select>
+
+                </td>
+                <td><input type="submit" value="Submit" class="btn btn-success"/></td>
+
+            </tr>
+
+            @*@foreach (ScheduleVehicle avehicle in vehicles)
+                {
+                    <tr>
+                        <td>@avehicle.Date</td>
+                        <td>@avehicle.Shift</td>
+                    </tr>
+                }*@
+
+            @*<tr>
+                <td></td>
+            </tr>*@
+        </table>
+            <table align="center">
+                <tr>
+                    <td>
+                        <table class="myTable table table-responsive table-hover table-bordered">
+
+                            <tr>
+                                <th>Date</th>
+                                <th>Already Booked Shift</th>
+                            </tr>
+
+                            @foreach (ScheduleVehicle aScheduleVehicle in ViewBag.bookedVehicleList)
+                            {
+                                <tr>
+                                    <td>@aScheduleVehicle.Date</td>
+                                    <td>@aScheduleVehicle.Shift</td>
+                                </tr>
+                            }
+                        </table>
+                    </td>
+                </tr>
+            </table>
+    </div>
+}
+@section scripts {
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+}

@@ -1,0 +1,110 @@
+﻿@using Lab_Test_5_Set_D.Models
+
+@{
+    ViewBag.Title = "ReturnBook";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Borrow Book</title>
+    <style>
+        .input-validation-error {
+            border: 2px solid red;
+        }
+
+        .field-validation-error {
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+    <div align="center">
+        <h3 class="text-muted">Return Book</h3>
+        <form method="POST" id="saveForm">
+            <table>
+                <tr>
+                    <td>Enter Member No.</td>
+                    <td><input class="form-control" type="text" id="MemberId" name="MemberId" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button id="myButton">Show Borrowed Books</button></td>
+                </tr>
+                <tr>
+                    <td>Select a Book</td>
+                    <td>
+                        <select id="BookTitle" name="BookTitle" class="form-control">
+                            <option value="">..Select....</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td><input class="form-control" type="text" id="Author" name="Author" readonly /></td>
+                </tr>
+                <tr>
+                    <td>Publisher</td>
+                    <td><input class="form-control" type="text" id="Publisher" name="Publisher" readonly /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input class="btn btn-success " type="submit" value="Save" /></td>
+                </tr>
+            </table>
+        </form>
+        @if (ViewBag.Message != null)
+        {
+            if (ViewBag.Message == "Sorry, Member number doesn't exists")
+            {
+                <div class="alert alert-danger" role="alert">
+                    @ViewBag.Message
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-success" role="alert">
+                    @ViewBag.Message
+                </div>
+            }
+
+
+
+        }
+
+    </div>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script>
+        $().ready(function () {
+
+            $("#myButton").on('click', function () {
+                var memberId = $("#MemberId").val();
+                //$("#CourseId").empty();
+                var json = {
+                    MemberId: memberId
+                };
+
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetBooksByMemberId","Book")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (data) {
+                        //alert(data);
+
+                        $.each(response, function (key, value) {
+                            $('#studentId').append('<option value="' + value.Id + '">' + value.BookTitle + '</option>');
+                        });
+                    }
+                });
+
+            });
+        });
+    </script>
+</body>
+</html>
+

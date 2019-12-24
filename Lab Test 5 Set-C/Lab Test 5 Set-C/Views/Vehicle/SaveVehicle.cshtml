@@ -1,0 +1,67 @@
+﻿@model Lab_Test_5_Set_C.Models.Vehicles
+@{
+    ViewBag.Title = "SaveVehicle";
+}
+<style>
+    .input-validation-error {
+        border: 2px solid red;
+    }
+
+    .field-validation-error {
+        color: red;
+    }
+    .alert-info {
+        width: 40%;
+        margin-top: 10px;
+    }
+</style>
+@using (Html.BeginForm(FormMethod.Post))
+{
+    <div align="center">
+        <div class="alert alert-info " role="alert">
+            <h3>Save Vehicle</h3></div>
+        <table>
+            <tr>
+                <td>Reg. No.</td>
+                <td>
+                    @Html.TextBoxFor(m => m.RegNo, new { @class = "form-control", placeholder = "Enter Reg. No." })
+                    @Html.ValidationMessageFor(m => m.RegNo)
+                </td>
+            </tr>
+            <tr>
+                <td>Engine No.</td>
+                <td>
+                    @Html.TextBoxFor(m => m.EngineNo, new { @class = "form-control", placeholder = "Enter Engine No." })
+                    @Html.ValidationMessageFor(m => m.EngineNo)
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td align="right"><input type="submit" class="btn btn-success" value="Save" /></td>
+            </tr>
+        </table>
+        @if (ViewBag.Message != null)
+        {
+            if (ViewBag.Message == "Vehicle Info Saved Successfully")
+            {
+                <div class="alert alert-success" role="alert">
+                    @ViewBag.Message
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-danger" role="alert">
+                    @ViewBag.Message
+                </div>
+            }
+        }
+
+    </div>
+}
+
+@section scripts {
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+}
